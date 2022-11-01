@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { booksSection } from './dom-elements.js';
 import { displayEmpty } from './display-empty.js';
 import { library } from './books-class.js';

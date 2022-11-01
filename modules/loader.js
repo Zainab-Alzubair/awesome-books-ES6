@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { main, loader } from './dom-elements.js';
 // Function to show loading screen
 export const load = () => {

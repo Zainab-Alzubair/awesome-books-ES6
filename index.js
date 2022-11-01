@@ -1,4 +1,4 @@
-import  { uid }  from './modules/random-id.js';
+import { uid } from './modules/random-id.js';
 import { load } from './modules/loader.js';
 import {
   newBtn, contactBtn, listBtn, form, listSection, addSection, contactSection, main, time,

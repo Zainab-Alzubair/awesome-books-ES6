@@ -1,3 +1,4 @@
+/* eslint-disable */
 // Get all relevant elements from the DOM
 export const booksSection = document.getElementById('library');
 export const form = document.getElementById('form-id');

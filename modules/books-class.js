@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { appendBook } from './append-book.js';
 import { addRemoveListener } from './add-remove-listener.js';
 
@@ -16,7 +17,7 @@ export class Book {
    };
 
   removeBook = () => {
-    library = library.filter((book) => book.id !== this.id);
+   library = library.filter((book) => book.id !== this.id);
   };
 }
 

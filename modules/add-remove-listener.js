@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { displayEmpty } from './display-empty.js';
 import { library } from './books-class.js';
 
