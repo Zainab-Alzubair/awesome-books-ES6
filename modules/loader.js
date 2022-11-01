@@ -1,7 +1,6 @@
-/* eslint-disable */
 import { main, loader } from './dom-elements.js';
 // Function to show loading screen
-export const load = () => {
+const load = () => {
   main.classList.add('hide');
   loader.classList.remove('hide');
   setTimeout(() => {
@@ -9,3 +8,5 @@ export const load = () => {
     main.classList.remove('hide');
   }, 1000);
 };
+
+export default load;

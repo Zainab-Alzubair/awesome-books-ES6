@@ -1,10 +1,10 @@
-const formData = {
+export const formData = {
   title: '',
   author: '',
 };
 
-const titleInput = document.getElementById('title');
-const authorInput = document.getElementById('author');
+export const titleInput = document.getElementById('title');
+export const authorInput = document.getElementById('author');
 
 titleInput.addEventListener('input', () => {
   formData.title = titleInput.value;

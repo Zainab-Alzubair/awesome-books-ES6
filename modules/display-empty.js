@@ -1,7 +1,6 @@
-/* eslint-disable */
 import { empty } from './dom-elements.js';
 
 // Function to show / hide empty library message
-export function displayEmpty() {
+export default function displayEmpty() {
   empty.classList.toggle('hide');
 }

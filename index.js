@@ -1,11 +1,11 @@
-import { uid } from './modules/random-id.js';
-import { load } from './modules/loader.js';
+import uid from './modules/random-id.js';
+import load from './modules/loader.js';
 import {
   newBtn, contactBtn, listBtn, form, listSection, addSection, contactSection, main, time,
 } from './modules/dom-elements.js';
-import { library, Book } from './modules/books-class.js';
-import { addRemoveListener } from './modules/add-remove-listener.js';
-import { appendBook } from './modules/append-book.js';
+import {
+  library, Book, addRemoveListener, appendBook,
+} from './modules/books-class.js';
 import { DateTime } from './modules/luxon.js';
 
 const now = DateTime.now();
